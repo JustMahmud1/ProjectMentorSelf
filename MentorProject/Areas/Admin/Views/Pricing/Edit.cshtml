@@ -1,0 +1,86 @@
+﻿@model Pricing
+@{
+	ViewData["Title"] = "Edit";
+}
+
+<div class="container-fluid pt-4 px-4">
+	<div class="row g-4">
+		<div class="col-sm-12 col-xl-6">
+			<div class="bg-secondary rounded h-100 p-4">
+				<h6 class="mb-4">Edit</h6>
+				<form method="post" enctype="multipart/form-data">
+					<div class="mb-3">
+						<label for="Name" class="form-label">Name</label>
+						<input asp-for="Name" type="text" class="form-control" id="Name" aria-describedby="Name">
+						<span style="color:red" asp-validation-for="Name"></span>
+					</div>
+					<div class="mb-3">
+						<label for="Price" class="form-label">Price</label>
+						<input asp-for="Price" class="form-control" id="Price" aria-describedby="Price">
+						<span style="color:red" asp-validation-for="Price"></span>
+
+					</div>
+					<div class="mb-3">
+						<label for="ButtonText" class="form-label">ButtonText</label>
+						<input asp-for="ButtonText" type="text" class="form-control" id="ButtonText" aria-describedby="ButtonText">
+						<span style="color:red" asp-validation-for="ButtonText"></span>
+
+					</div>
+					<div class="mb-3">
+						<label for="ButtonLink" class="form-label">ButtonLink</label>
+						<input asp-for="ButtonLink" class="form-control" id="ButtonLink" aria-describedby="ButtonLink">
+						<span style="color:red" asp-validation-for="ButtonLink"></span>
+
+					</div>
+					@* <div class="mb-3">
+					<label for="Trainer" class="form-label">Trainer</label>
+					<select asp-for="TrainerId" class="form-control" id="Trainer" aria-describedby="Trainer" asp-items="@(new SelectList(ViewBag.Trainers,nameof(Trainer.Id),nameof(Trainer.Name)))">
+					</select>
+					<span style="color:red" asp-validation-for="TrainerId"></span>
+					</div> *@
+					<div class="mb-3">
+						<label for="Image" class="form-label">IsAdvanced</label>
+						<input asp-for="IsAdvanced" class="form-check-input" id="IsAdvanced" aria-describedby="IsAdvanced">
+						<span style="color:red" asp-validation-for="IsAdvanced"></span>
+					</div>
+					<div class="mb-3">
+						<label for="IsFeatured" class="form-label">IsFeatured</label>
+						<input asp-for="IsFeatured" class="form-check-input" id="IsFeatured" aria-describedby="IsFeatured">
+						<span style="color:red" asp-validation-for="IsFeatured"></span>
+					</div>
+@* 					<div class="mb-3">
+						<label for="FeatureIds" class="form-label">Features</label>
+						<select asp-for="FeatureIds" class="form-control" id="FeatureIds" aria-describedby="FeatureIds" asp-items="@new SelectList(ViewBag.Features,nameof(Feature.Id),nameof(Feature.Name))">
+						</select>
+
+					</div> *@
+					<div class="mb-3">
+						<label class="form-label">Features</label>
+						<div>
+							@foreach (var feature in ViewBag.Features)
+							{
+								<div class="form-check">
+									<input name="FeatureIds" type="checkbox" class="form-check-input" value="@feature.Id" id="feature-@feature.Id"	@(Model.pricingFeatures.Any(x=>x.FeatureId==feature.Id)?"checked":"")>
+									<label class="form-check-label" for="feature-@feature.Id">@feature.Name</label>
+								</div>
+							}
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary">Edit</button>
+				</form>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+@section scripts {
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js" integrity="sha512-xq+Vm8jC94ynOikewaQXMEkJIOBp7iArs3IhFWSWdRT3Pq8wFz46p+ZDFAR7kHnSFf+zUv52B3prRYnbDRdgog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+}
+
+
+@*                     <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div> *@

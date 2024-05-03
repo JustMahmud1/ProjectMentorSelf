@@ -1,0 +1,63 @@
+﻿@model Course
+@{
+	ViewData["Title"] = "Create";
+}
+
+<div class="container-fluid pt-4 px-4">
+	<div class="row g-4">
+		<div class="col-sm-12 col-xl-6">
+			<div class="bg-secondary rounded h-100 p-4">
+				<h6 class="mb-4">Basic Form</h6>
+				<form method="post" enctype="multipart/form-data">
+					<div class="mb-3">
+						<label for="Name" class="form-label">Name</label>
+						<input asp-for="Name" type="text" class="form-control" id="Name" aria-describedby="Name">
+						<span style="color:red" asp-validation-for="Name"></span>
+					</div>
+					<div class="mb-3">
+						<label for="exampleInputEmail1" class="form-label">Description</label>
+						<input asp-for="Description" type="textarea" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+						<span style="color:red" asp-validation-for="Description"></span>
+
+					</div>
+					<div class="mb-3">
+						<label for="exampleInputEmail1" class="form-label">Category</label>
+						<input asp-for="Category" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+						<span style="color:red" asp-validation-for="Category"></span>
+
+					</div>
+					<div class="mb-3">
+						<label for="Price" class="form-label">Price</label>
+						<input asp-for="Price" type="number" class="form-control" id="Price" aria-describedby="Price">
+						<span style="color:red" asp-validation-for="Price"></span>
+
+					</div>
+					<div class="mb-3">
+						<label for="Trainer" class="form-label">Trainer</label>
+						<select asp-for="TrainerId" class="form-control" id="Trainer" aria-describedby="Trainer" asp-items="@(new SelectList(ViewBag.Trainers,nameof(Trainer.Id),nameof(Trainer.Name)))">
+						</select>
+						<span style="color:red" asp-validation-for="TrainerId"></span>
+					</div>
+					<div class="mb-3">
+						<label for="Image" class="form-label">Image</label>
+						<input asp-for="ImageFile" class="form-control" id="Image" aria-describedby="Image">
+						<span style="color:red" asp-validation-for="ImageFile"></span>
+					</div>
+					<button type="submit" class="btn btn-primary">Create</button>
+				</form>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+@section scripts{
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js" integrity="sha512-xq+Vm8jC94ynOikewaQXMEkJIOBp7iArs3IhFWSWdRT3Pq8wFz46p+ZDFAR7kHnSFf+zUv52B3prRYnbDRdgog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+}
+
+
+@*                     <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div> *@
