@@ -11,6 +11,10 @@ namespace MentorProject
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddSession(opt =>
+            {
+                opt.IdleTimeout=TimeSpan.FromSeconds(3);
+            });
 
             builder.Services.AddDbContext<AppDbContext>(options =>
             {
@@ -33,6 +37,8 @@ namespace MentorProject
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseSession();
             
             app.MapControllerRoute(
             name: "areas",

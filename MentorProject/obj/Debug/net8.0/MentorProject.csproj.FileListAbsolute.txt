@@ -250,3 +250,4 @@ C:\Users\PREDATOR\Desktop\Code Academy\C#\MentorProject\MentorProject\bin\Debug\
 C:\Users\PREDATOR\Desktop\Code Academy\C#\MentorProject\MentorProject\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\PREDATOR\Desktop\Code Academy\C#\MentorProject\MentorProject\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\PREDATOR\Desktop\Code Academy\C#\MentorProject\MentorProject\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\PREDATOR\Desktop\Code Academy\C#\MentorProject\MentorProject\obj\Debug\net8.0\MentorProject.sourcelink.json

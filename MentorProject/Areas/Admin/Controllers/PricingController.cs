@@ -74,11 +74,11 @@ namespace MentorProject.Areas.Admin.Controllers
 			}
 
 
-			var existingPricingFeatures = existPricing.pricingFeatures.ToList();
+			var featuresToDelete = existPricing.pricingFeatures.ToList();
 
 			foreach (var selectedFeatureId in pricing.FeatureIds)
 			{
-				var existingPricingFeature = existingPricingFeatures.FirstOrDefault(pf => pf.FeatureId == selectedFeatureId);
+				var existingPricingFeature = featuresToDelete.FirstOrDefault(pf => pf.FeatureId == selectedFeatureId);
 
 				if (existingPricingFeature == null)
 				{
@@ -91,10 +91,10 @@ namespace MentorProject.Areas.Admin.Controllers
 				}
 				else
 				{
-					existingPricingFeatures.Remove(existingPricingFeature);
+					featuresToDelete.Remove(existingPricingFeature);
 				}
 			}
-			_context.PricingFeatures.RemoveRange(existingPricingFeatures);
+			_context.PricingFeatures.RemoveRange(featuresToDelete);
 
 
 
