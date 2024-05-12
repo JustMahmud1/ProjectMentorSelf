@@ -3,48 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|c:\\users\\predator\\desktop\\code academy\\c#\\mentorproject\\mentorproject\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|solutionrelative:mentorproject\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|c:\\users\\predator\\desktop\\code academy\\c#\\mentorproject\\mentorproject\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|solutionrelative:mentorproject\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|c:\\users\\predator\\desktop\\code academy\\c#\\mentorproject\\mentorproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|solutionrelative:mentorproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|c:\\users\\predator\\desktop\\code academy\\c#\\mentorproject\\mentorproject\\vms\\basketitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|solutionrelative:mentorproject\\vms\\basketitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|c:\\users\\predator\\desktop\\code academy\\c#\\mentorproject\\mentorproject\\areas\\admin\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|solutionrelative:mentorproject\\areas\\admin\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|c:\\users\\predator\\desktop\\code academy\\c#\\mentorproject\\mentorproject\\views\\basket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|solutionrelative:mentorproject\\views\\basket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|c:\\users\\predator\\desktop\\code academy\\c#\\mentorproject\\mentorproject\\models\\pricing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|solutionrelative:mentorproject\\models\\pricing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|c:\\users\\predator\\desktop\\code academy\\c#\\mentorproject\\mentorproject\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|solutionrelative:mentorproject\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|c:\\users\\predator\\desktop\\code academy\\c#\\mentorproject\\mentorproject\\wwwroot\\admin\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|solutionrelative:mentorproject\\wwwroot\\admin\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|c:\\users\\predator\\desktop\\code academy\\c#\\mentorproject\\mentorproject\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|solutionrelative:mentorproject\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|c:\\users\\predator\\desktop\\code academy\\c#\\mentorproject\\mentorproject\\models\\pricingfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|solutionrelative:mentorproject\\models\\pricingfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|c:\\users\\predator\\desktop\\code academy\\c#\\mentorproject\\mentorproject\\areas\\admin\\controllers\\pricingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|solutionrelative:mentorproject\\areas\\admin\\controllers\\pricingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|c:\\users\\predator\\desktop\\code academy\\c#\\mentorproject\\mentorproject\\areas\\admin\\views\\pricing\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|solutionrelative:mentorproject\\areas\\admin\\views\\pricing\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|c:\\users\\predator\\desktop\\code academy\\c#\\mentorproject\\mentorproject\\areas\\admin\\views\\pricing\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|solutionrelative:mentorproject\\areas\\admin\\views\\pricing\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|c:\\users\\predator\\desktop\\code academy\\c#\\mentorproject\\mentorproject\\areas\\admin\\views\\pricing\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|solutionrelative:mentorproject\\areas\\admin\\views\\pricing\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|c:\\users\\predator\\desktop\\code academy\\c#\\mentorproject\\mentorproject\\vms\\basketvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A99BDDF7-9400-456F-87BA-0C6108CF322B}|MentorProject\\MentorProject.csproj|solutionrelative:mentorproject\\vms\\basketvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,149 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Pricing.cs",
-              "DocumentMoniker": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Models\\Pricing.cs",
-              "RelativeDocumentMoniker": "MentorProject\\Models\\Pricing.cs",
-              "ToolTip": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Models\\Pricing.cs",
-              "RelativeToolTip": "MentorProject\\Models\\Pricing.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T09:45:26.623Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Areas\\Admin\\Views\\Pricing\\Edit.cshtml",
-              "RelativeDocumentMoniker": "MentorProject\\Areas\\Admin\\Views\\Pricing\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Areas\\Admin\\Views\\Pricing\\Edit.cshtml",
-              "RelativeToolTip": "MentorProject\\Areas\\Admin\\Views\\Pricing\\Edit.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADUAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-03T09:33:28.209Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "MentorProject\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "MentorProject\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAxAAAA",
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "MentorProject\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "MentorProject\\Controllers\\CoursesController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwD4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T13:19:17.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Program.cs",
-              "RelativeDocumentMoniker": "MentorProject\\Program.cs",
-              "ToolTip": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Program.cs",
-              "RelativeToolTip": "MentorProject\\Program.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwA8AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T13:18:48.42Z",
+              "WhenOpened": "2024-05-11T14:55:57.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\wwwroot\\admin\\css\\style.css",
-              "RelativeDocumentMoniker": "MentorProject\\wwwroot\\admin\\css\\style.css",
-              "ToolTip": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\wwwroot\\admin\\css\\style.css",
-              "RelativeToolTip": "MentorProject\\wwwroot\\admin\\css\\style.css",
-              "ViewState": "AQIAABQBAAAAAAAAAAAAACABAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-03T13:05:17.121Z",
+              "Title": "BasketVM.cs",
+              "DocumentMoniker": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\VMs\\BasketVM.cs",
+              "RelativeDocumentMoniker": "MentorProject\\VMs\\BasketVM.cs",
+              "ToolTip": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\VMs\\BasketVM.cs",
+              "RelativeToolTip": "MentorProject\\VMs\\BasketVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T14:38:31.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasketItemVM.cs",
+              "DocumentMoniker": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\VMs\\BasketItemVM.cs",
+              "RelativeDocumentMoniker": "MentorProject\\VMs\\BasketItemVM.cs",
+              "ToolTip": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\VMs\\BasketItemVM.cs",
+              "RelativeToolTip": "MentorProject\\VMs\\BasketItemVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T14:18:25.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MentorProject\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MentorProject\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-03T12:52:01.504Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Controllers\\BasketController.cs",
+              "RelativeDocumentMoniker": "MentorProject\\Controllers\\BasketController.cs",
+              "ToolTip": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Controllers\\BasketController.cs",
+              "RelativeToolTip": "MentorProject\\Controllers\\BasketController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T14:12:39.709Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CourseController.cs",
-              "DocumentMoniker": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Areas\\Admin\\Controllers\\CourseController.cs",
-              "RelativeDocumentMoniker": "MentorProject\\Areas\\Admin\\Controllers\\CourseController.cs",
-              "ToolTip": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Areas\\Admin\\Controllers\\CourseController.cs",
-              "RelativeToolTip": "MentorProject\\Areas\\Admin\\Controllers\\CourseController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T11:47:35.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PricingFeature.cs",
-              "DocumentMoniker": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Models\\PricingFeature.cs",
-              "RelativeDocumentMoniker": "MentorProject\\Models\\PricingFeature.cs",
-              "ToolTip": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Models\\PricingFeature.cs",
-              "RelativeToolTip": "MentorProject\\Models\\PricingFeature.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T10:13:53.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Areas\\Admin\\Views\\Pricing\\Create.cshtml",
-              "RelativeDocumentMoniker": "MentorProject\\Areas\\Admin\\Views\\Pricing\\Create.cshtml",
-              "ToolTip": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Areas\\Admin\\Views\\Pricing\\Create.cshtml",
-              "RelativeToolTip": "MentorProject\\Areas\\Admin\\Views\\Pricing\\Create.cshtml",
-              "ViewState": "AQIAACgAAAAAAAAAAAAYwDIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-03T09:34:25.661Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Areas\\Admin\\Views\\Pricing\\Index.cshtml",
-              "RelativeDocumentMoniker": "MentorProject\\Areas\\Admin\\Views\\Pricing\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Areas\\Admin\\Views\\Pricing\\Index.cshtml",
-              "RelativeToolTip": "MentorProject\\Areas\\Admin\\Views\\Pricing\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAkAAAA",
+              "DocumentMoniker": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Views\\Basket\\Index.cshtml",
+              "RelativeDocumentMoniker": "MentorProject\\Views\\Basket\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Views\\Basket\\Index.cshtml",
+              "RelativeToolTip": "MentorProject\\Views\\Basket\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADEAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-03T09:28:53.302Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PricingController.cs",
-              "DocumentMoniker": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Areas\\Admin\\Controllers\\PricingController.cs",
-              "RelativeDocumentMoniker": "MentorProject\\Areas\\Admin\\Controllers\\PricingController.cs",
-              "ToolTip": "C:\\Users\\PREDATOR\\Desktop\\Code Academy\\C#\\MentorProject\\MentorProject\\Areas\\Admin\\Controllers\\PricingController.cs",
-              "RelativeToolTip": "MentorProject\\Areas\\Admin\\Controllers\\PricingController.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFIAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T09:26:13.046Z",
+              "WhenOpened": "2024-05-11T13:59:18.427Z",
               "EditorCaption": ""
             }
           ]

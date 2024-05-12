@@ -22,7 +22,7 @@ namespace MentorProject.Controllers
             HomeVM homeVM = new HomeVM()
             {
                 Trainers= _context.Trainers.Include(x => x.Courses).Include(x => x.Accounts).ToList(),
-                Courses = _context.Courses.Include(x => x.Trainer).ToList()
+                Courses = _context.Courses.Include(x => x.Trainer).Take(3).ToList()
         };
             return View(homeVM);
         }

@@ -1,4 +1,6 @@
 using MentorProject.DAL;
+using MentorProject.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace MentorProject
@@ -15,6 +17,13 @@ namespace MentorProject
             {
                 opt.IdleTimeout=TimeSpan.FromSeconds(3);
             });
+
+            builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+            {
+                opt.Password.RequiredLength = 8;
+                opt.Password.RequireUppercase = true;
+                opt.Password.RequireNonAlphanumeric = false;
+            }).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
 
             builder.Services.AddDbContext<AppDbContext>(options =>
             {
@@ -36,6 +45,7 @@ namespace MentorProject
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseSession();

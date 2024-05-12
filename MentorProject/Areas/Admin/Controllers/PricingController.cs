@@ -73,32 +73,63 @@ namespace MentorProject.Areas.Admin.Controllers
 				return View(pricing);
 			}
 
+            var featuresToDelete = existPricing.pricingFeatures.ToList();
 
-			var featuresToDelete = existPricing.pricingFeatures.ToList();
+            foreach (var item in pricing.FeatureIds)
+            {
+                var existFeature = featuresToDelete.FirstOrDefault(x => x.FeatureId == item);
+                if(existFeature == null)
+                {
+                    PricingFeature feature = new PricingFeature()
+                    {
+                        FeatureId=item,
+                        PricingId=pricing.Id
+                    };
+                    _context.PricingFeatures.Add(feature);
+                }
+                else
+                {
+                    featuresToDelete.Remove(existFeature);
+                }
 
-			foreach (var selectedFeatureId in pricing.FeatureIds)
-			{
-				var existingPricingFeature = featuresToDelete.FirstOrDefault(pf => pf.FeatureId == selectedFeatureId);
-
-				if (existingPricingFeature == null)
-				{
-					PricingFeature newPricingFeature = new PricingFeature()
-					{
-						FeatureId = selectedFeatureId,
-						PricingId = pricing.Id
-					};
-					_context.PricingFeatures.Add(newPricingFeature);
-				}
-				else
-				{
-					featuresToDelete.Remove(existingPricingFeature);
-				}
-			}
-			_context.PricingFeatures.RemoveRange(featuresToDelete);
-
+            }
+            _context.PricingFeatures.RemoveRange(featuresToDelete);
 
 
-			existPricing.Name = pricing.Name;
+
+
+
+
+
+
+
+
+
+            //var featuresToDelete = existPricing.pricingFeatures.ToList();
+
+            //foreach (var selectedFeatureId in pricing.FeatureIds)
+            //{
+            //    var existingPricingFeature = featuresToDelete.FirstOrDefault(pf => pf.FeatureId == selectedFeatureId);
+
+            //    if (existingPricingFeature == null)
+            //    {
+            //        PricingFeature newPricingFeature = new PricingFeature()
+            //        {
+            //            FeatureId = selectedFeatureId,
+            //            PricingId = pricing.Id
+            //        };
+            //        _context.PricingFeatures.Add(newPricingFeature);
+            //    }
+            //    else
+            //    {
+            //        featuresToDelete.Remove(existingPricingFeature);
+            //    }
+            //}
+            //_context.PricingFeatures.RemoveRange(featuresToDelete);
+
+
+
+            existPricing.Name = pricing.Name;
 			existPricing.Price = pricing.Price;
 			existPricing.IsAdvanced = pricing.IsAdvanced;
 			existPricing.IsFeatured = pricing.IsFeatured;

@@ -1,9 +1,10 @@
 ﻿using MentorProject.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace MentorProject.DAL
 {
-    public class AppDbContext:DbContext
+    public class AppDbContext:IdentityDbContext<AppUser>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
@@ -13,6 +14,8 @@ namespace MentorProject.DAL
 		public DbSet<Pricing> Pricings { get; set; }
 		public DbSet<Feature> Features { get; set; }
 		public DbSet<PricingFeature> PricingFeatures { get; set; }
+        public DbSet<BasketItem> BasketItems { get; set; }
+
 
 	}
 }

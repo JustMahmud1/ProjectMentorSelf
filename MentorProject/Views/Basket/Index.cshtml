@@ -1,0 +1,59 @@
+﻿@model BasketVM
+@{
+	ViewData["Title"] = "Index";
+	int count = 0;
+}
+<main class="main">
+	<div class="page-title" data-aos="fade">
+		<div class="heading">
+			<div class="container">
+				<div class="row d-flex justify-content-center text-center">
+					<div class="col-lg-8">
+						<h1>Basket</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="breadcrumbs">
+			<div class="container">
+				<ol>
+					<li class="current">Basket</li>
+				</ol>
+			</div>
+		</nav>
+	</div><!-- End Page Title -->
+	<section id="pricing" class="pricing section">
+
+		<div class="container">
+
+			<div class="row gy-3">
+				<table class="table">
+					<thead>
+						<tr>
+							<th scope="col">#</th>
+							<th scope="col">Name</th>
+							<th scope="col">Image</th>
+							<th scope="col">Count</th>
+							<th scope="col">Price</th>
+							<th scope="col">Total Price</th>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (var item in Model.Items)
+						{
+							<tr>
+								<th scope="row">@(++count)</th>
+								<td>@item.Name</td>
+								<td><img src="~/assets/img/@item.Image" alt="Alternate Text" style="width:200px" /></td>
+								<td>@item.Count</td>
+								<td>@item.Price</td>
+								<td>@item.TotalPrice</td>
+							</tr>
+						}
+					</tbody>
+				</table>
+					<p>Total price: @Model.TotalBasketPrice</p>
+			</div>
+		</div>
+	</section>
+</main>
